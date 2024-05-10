@@ -1,4 +1,5 @@
 import saude from '../../assets/saude.png'
+import ListarCategoria from '../../components/Categoria/listarCategoria/ListarCategoria';
 
 
 
@@ -21,6 +22,7 @@ function Home() {
             </div>
           </div>
         </div>
+        {<ListarCategoria />}
       </>
     );
 }
