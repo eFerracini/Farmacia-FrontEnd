@@ -5,8 +5,6 @@ import Categoria from '../../../model/Categoria'
 
 
 
-
-
 function DeletarCategoria() {
 
     const [categorias, setCategoria] = useState<Categoria>({} as Categoria);
